@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- INICIO ITEM -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_radius"
+                    android:padding="10dp">
+
+                    <!-- INICIO HEADER -->
+                    <RelativeLayout
+                        android:id="@+id/rl_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_radius">
+                        <ImageView
+                            android:id="@+id/img_person"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100sp"
+                            android:paddingLeft="5dp"
+                            android:src="@drawable/james"
+                            android:layout_marginRight="10dp"/>
+                        <TextView
+                            android:id="@+id/tv_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt1"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/img_person"/>
+                        <TextView
+                            android:id="@+id/tv_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str_22"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_below="@id/tv_1"
+                            android:layout_alignLeft="@id/tv_1"/>
+
+                        <TextView
+                            android:id="@+id/tv_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str_33"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_below="@id/tv_2"
+                            android:layout_alignLeft="@id/tv_1"/>
+
+                        <TextView
+                            android:id="@+id/tv_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str_44"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_below="@id/tv_3"
+                            android:layout_alignLeft="@id/tv_1"/>
+                        <TextView
+                            android:id="@+id/tv_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str_55"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_below="@id/tv_4"
+                            android:layout_alignLeft="@id/tv_1"/>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

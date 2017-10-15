@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">taller4</string>
+    <string name="txt1">ID</string>
+    <string name="str_2">NAME</string>
+    <string name="str_22">NAME</string>
+    <string name="str_33">USERSNAME</string>
+    <string name="str_44">ODDERS</string>
+    <string name="str_55">COMPANY</string>
+    <string name="str1">UserId</string>
+    <string name="texto1">LOS MEJORES DEL MUNDO</string>
+    <string name="str_5">UsersId</string>
+    <string name="str_6">id</string>
+    <string name="str_7">title</string>
+    <string name="str_8">body</string>
+    <string name="str_13">actualizar</string>
+    <string name="str_tb_title_p1">actualizar</string>
+
+
+</resources>
+
